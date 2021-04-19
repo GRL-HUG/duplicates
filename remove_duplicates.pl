@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
-open (Fastq_forward, "< $ARGV[0]") || die "Probleme d'ouverture : $!" ;
-open (Fastq_reverse, "< $ARGV[1]") || die "Probleme d'ouverture : $!" ;
+open (Fastq_forward, "< $ARGV[0]") || die "Problem with forward reads file opening : $!" ;
+open (Fastq_reverse, "< $ARGV[1]") || die "Problem with reverse reads file opening : $!" ;
 open OutputF , ">$ARGV[2]";
 open OutputR , ">$ARGV[3]";
 
